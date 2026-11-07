@@ -1,8 +1,13 @@
 {
-  "mcpServers": {
-    "canvas-authoring": {
-      "command": "dnx",
-      "args": ["Microsoft.PowerApps.CanvasAuthoring.McpServer", "--yes"]
-    }
-  }
+    "mcpServers":  {
+                       "canvas-authoring":  {
+                                                "command":  "dnx",
+                                                "args":  [
+                                                             "Microsoft.PowerApps.CanvasAuthoring.McpServer@1.1.29",
+                                                             "--source",
+                                                             "https://www.nuget.org/api/v2",
+                                                             "--yes"
+                                                         ]
+                                            }
+                   }
 }
